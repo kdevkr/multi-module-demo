@@ -1,0 +1,4 @@
+rootProject.name = 'backend'
+
+include ':module-common'
+project(':module-common').projectDir = new File(settingsDir, '../module-common')
